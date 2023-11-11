@@ -109,7 +109,9 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: all 0.5s ease;
 }
+
 /*game-over.html*/
 .game-over{
     display: flex;
@@ -140,4 +142,61 @@ h1{
     border-radius: 10px;
     width: 200px;
     height: 100px;
+}
+
+@media screen and (max-width:1000px) {
+     .top-bar h1{
+        font-size: 2.5rem;
+        display: flex;
+        justify-content: center;
+        color: rgb(255, 0, 204);
+        margin-top: 100px;
+    }
+    .heading h1{
+        margin-top: 200px;
+        font-size: 2.5rem;
+        display: flex;
+        justify-content: center;
+        color: rgb(255, 0, 204);
+    }
+    .subtitle{
+        text-align: center;
+    }
+    .subtitle h3{
+        font-size: 1.8rem;
+    }
+    .box{
+        height: 130px;
+        width: 130px;
+        margin-top: 50px;
+    }
+    .guess{
+        font-size: 4rem;
+        margin-top: 50px;
+    }
+    .game-rule{
+        font-size: 1rem;
+    }
+    .time{
+        height: 60px;
+        width: 80px;
+        margin-right: 40px;
+    }
+    .top-bar{
+       display: block;
+    }
+    .symbol{
+        transition: 0.5s ease;
+        margin-top: 80px;
+    }
+    .score-board{
+        margin-top: 200px;
+        height: 200px;
+        width: 200px;
+        font-size: 8rem;
+    }
+    .play-agn{
+        margin-top: 250px;
+    }
+
 }
